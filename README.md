@@ -10,9 +10,9 @@ Refactoring the code will help the code run more efficiently. To ensure this, we
 ### Table Analysis
 #### All Stocks: 2017 & 2018 tables
 ##### 2017 Table
- 
+![Stocks_table_2017](https://user-images.githubusercontent.com/79118630/110221431-3093fb80-7e9a-11eb-80df-0a16e89a3248.png)
 ##### 2018 Table
- 
+![image](https://user-images.githubusercontent.com/79118630/110221447-4acdd980-7e9a-11eb-9002-cee11ad589f2.png)
 #### Analysis
 - In 2017, we see a lot of green in the return column. To a stock broker, all of these companies ended the year in green, meaning between the beginning and end of the year, the stocks had a positive increase in daily volume. The only stock in the red was TERP. In 2018, we see the opposite, almost all of the stocks were in the red. Showing that 2018 was not a good year in the stock market for the observed stocks. 
 - We can see that tickers ENPH and RUN both stayed in the green through 2017 and 2018. ENPH’s return was lower in 2018 than 2017, but stayed significantly high in the green. RUN’s return did the opposite and rose significantly in 2018. When Steve is presenting these results, the actual return volume should only be slightly considered but the stocks being in the green should be extra emphasized. Eleven out of the twelve stocks in 2017 were green and only two of them stayed green in 2018. Steve should be telling his boss to watch and probably invest in these stocks since they stayed green not only for 2 years in a row, but stayed green in 2018 compared to its counterparts.
@@ -22,15 +22,14 @@ Refactoring the code will help the code run more efficiently. To ensure this, we
 ### Original vs Refactored Code
 #### 2017 Times
 ##### Original 2017
- 
+![image](https://user-images.githubusercontent.com/79118630/110221449-528d7e00-7e9a-11eb-82f1-02c493a17b1e.png)
 ##### Refactored 2017
- 
+![image](https://user-images.githubusercontent.com/79118630/110221465-6afd9880-7e9a-11eb-86a3-4385b8c16fed.png)
 #### 2018 Times
 ##### Original 2018
- 
+![image](https://user-images.githubusercontent.com/79118630/110221456-59b48c00-7e9a-11eb-896f-87c0047acd8c.png)
 ##### Refactored 2018
- 
-
+![image](https://user-images.githubusercontent.com/79118630/110221468-705ae300-7e9a-11eb-8fb2-351b4dd38fba.png)
 ## Summary of Results
 ### Advantages or Disadvantages of refactoring code
 - The point of refactoring our code was mentioned at the beginning of this document, refactoring code helps run code more efficiently, which is why refactoring can be an advantage. As we can see by the time screenshots, that is true. With the original code, it took over 1.5 seconds for both years, and almost 2 seconds for 2018. After refactoring, both years run under 0.5 seconds, and in fact, both ran just under 0.4 seconds. Without any calculations, we can see the refactored code runs at least 1.1 seconds faster than the original code. 2 seconds for running code is terribly slow, but longer a code takes can sometimes run into a time error and even if the code is right, no results will output. Here we only were looking at 12 tickers, which still included over 3,000 data entries in the two year data sheets, but 2 seconds isn’t anything to worry about. Imagine if the list of observed tickers was 15 or 20, those extra tickers will cause for more rows of data, causing the code to work through more lines of data causing it to work harder. 
