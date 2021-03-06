@@ -2,9 +2,11 @@
 Module 2: VBA on Wallstreet
 # Module 2 Challenge: Refactoring Steve’s stock data analysis
 Refactoring the code will help the code run more efficiently. To ensure this, we will analyze and compare the original code and the refactored code.
+
 ## Overview
 - Purpose of this data is to help Steve find the total daily volume and yearly return for these stocks. VBAs in excel help with creating macros and are very helpful when dealing with stock data in excel. Daily volume is the total number of shares traded during the day, measuring how actively a stock is traded. Yearly return is the percentage difference in price from the beginning of the year to the end.
 - Steve has already figured out a way to compile and format the data, but his boss figures he can refactor the code to be somehow be cleaner and quicker. We have helped Steve with the first part and now it is time to refactor his code. Below will discuss the actual analysis of the results and then analyze the refactored code.
+- All of the code and results can be found in the VBA_Cahllenge.xlsm file
 ## Results
 - This section is split into two sections: the first will analysis the two years of stocks and the second section will compare the difference of the original and refactored code.
 ### Table Analysis
